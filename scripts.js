@@ -22,9 +22,14 @@ $(document).ready(function() {
   		var result = document.getElementById('result');
   		var myResult = myBox1 * myBox2;
   		result.value = myResult;
-
-
   	}
+
+    function calc(){
+       var textValue1 = document.getElementById('input1').value;
+       var textValue2 = document.getElementById('input2').value;
+
+       document.getElementById('output').value = textValue1 * textValue2;
+     }
 
 var myName = "Maartje";
 
