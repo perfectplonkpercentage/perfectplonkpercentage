@@ -23,15 +23,6 @@ $(document).ready(function() {
         }
 
 
-var myName = "Maartje";
-
-  function sayMyName(name){
-    alert("Hi," + name + "!");
-  }
-
-
-
-
 
 
 
