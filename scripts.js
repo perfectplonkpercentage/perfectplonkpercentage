@@ -37,7 +37,5 @@ var myName = "Maartje";
 
 
 
-
-
-
+    
 });
