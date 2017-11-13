@@ -1,8 +1,9 @@
 nav.navbar {
   opacity: 0.8;
+  background-color: #3d0101;
 }
 div#non-nav {
-  padding-top: 70px;
+  padding-top: 48px;
 }
 body {
   background-image: url("./images/wine-stain.jpg")
@@ -11,4 +12,8 @@ div.intro {
   background-color: white;
   opacity: 0.9;
   padding: 15px 15px 10px 15px;
+  font-size: 12pt;
+}
+.navbar-brand {
+  font-color: white;
 }
