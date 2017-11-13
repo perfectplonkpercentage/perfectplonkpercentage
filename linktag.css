@@ -5,6 +5,10 @@ div#non-nav {
   padding-top: 70px;
 }
 body {
-  background-image: url("/images/wine-stain.jpg")
-} 
-/* Add padding to main section to move down out of way of nav bar! Must be around a container or div?!*/
+  background-image: url("./images/wine-stain.jpg")
+}
+div.intro {
+  background-color: white;
+  opacity: 0.9;
+  padding: 15px 15px 10px 15px;
+}
