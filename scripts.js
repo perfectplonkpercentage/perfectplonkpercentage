@@ -36,11 +36,6 @@ $(document).ready(function() {
         //$('#ppu1').val($('#price1').val() / $(vp1).val());
 
     }
-    //$('#ppu1').val($('#volume1').val() * $('#percentage1').val());
-    $('#ppu1').val($('#price1') / (($('#volume1').val() * $('#percentage1').val())));
-    //var vp1 = $('#volume1').val() * $('#percentage1').val();
-    //$('#ppu1').val($('#price1').val() / $(vp1).val());
-
 
 
 var myName = "Maartje";
