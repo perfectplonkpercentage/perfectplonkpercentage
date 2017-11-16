@@ -18,6 +18,18 @@
     })
   </script>
 
+  <style>
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #770d20;
+      color: white;
+      text-align: center;
+  }
+  </style>
+
   </head>
   <body>
 
@@ -71,9 +83,9 @@
       </tr>
       <tr>
         <th scope="row">price</th>
-        <td bgcolor="#a37954">£ <input id="price1" type="text" placeholder="12" class = "ownclass1"</p></td>
-        <td bgcolor="#a59a98">£ <input id="price2" type="text" value="3.85" class="ownclass2"</td></p>
-        <td bgcolor="#dd8090">£ <input id="price3" type="text" value="8.15" class="ownclass3"</td></p>
+        <td bgcolor="#a37954"> £ <input id="price1" type="text" placeholder="12" class = "ownclass1"</p></td>
+        <td bgcolor="#a59a98"> £ <input id="price2" type="text" value="3.85" class="ownclass2"</td></p>
+        <td bgcolor="#dd8090"> £ <input id="price3" type="text" value="8.15" class="ownclass3"</td></p>
       </tr>
       <tr>
         <th scope="row">percentage</th>
@@ -90,55 +102,100 @@
     </tbody>
   </table>
 
+<!--
 <fieldset>
   <legend> Recommend? </legend>
 
-<ul>
-<li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" /></li>
-<li><label for="drink">Drink bought:</label> <input type="text" name="drink" id="drink" value="" /></li>
-</ul>
-<ul>
-<li>Did you take the best alcohol for value option:
+<form>
   <ul>
-    <li><label for="yes">Yes</label> <input type="checkbox" name="yes" id="yes" value="yes"></li>
-    <li><label for="no">No</label> <input type="checkbox" name="no" id="no" value="no"></li>
+      <li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" /></li>
+      <li><label for="drink">Drink bought:</label> <input type="text" name="drink" id="drink" value="" /></li>
   </ul>
-</li>
-<li><label for="comments">Review:</label> <textarea name="comments" id="comments" cols="25" rows="3"></textarea></li>
-</ul>
+  <ul>
+      <li>Did you take the best alcohol for value option:
+  <ul>
+      <li><label for="yes">Yes</label> <input type="checkbox" name="yes" id="yes" value="yes"></li>
+      <li><label for="no">No</label> <input type="checkbox" name="no" id="no" value="no"></li>
+  </ul>
+    </li>
+      <li><label for="comments">Review:</label> <textarea name="comments" id="comments" cols="25" rows="3"></textarea></li>
+  </ul>
 
-<ul>
-<li><label for="location">Location visited:</label>
-<select name="location" id="location">
-  <option value="">Select location</option>
-  <option value="tesco">Tesco</option>
-  <option value="sainsburys">Sainsbury's</option>
-  <option value="waitrose">Waitrose</option>
-  <option value="independentshop">Independent shop</option>
-  <option value="other">Other</option>
-</select></li>
-</ul>
+  <ul>
+    <li><label for="location">Location visited:</label>
+        <select name="location" id="location">
+          <option value="">Select location</option>
+          <option value="tesco">Tesco</option>
+          <option value="sainsburys">Sainsbury's</option>
+          <option value="waitrose">Waitrose</option>
+          <option value="independentshop">Independent shop</option>
+          <option value="other">Other</option>
+        </select></li>
+      </ul>
 
-<li><input type="submit" value="submit" /></li>
+        <li><input type="submit" value="submit" /></li>
 
 </form>
 </fieldset>
+-->
 
 
-<ul>
-  <li class="left-half">
-    <article>
-      <h1>Left Half</h1>
-      <p>Weekends don't count unless you spend them doing something completely pointless.</p>
-    </article>
-  </li>
-  <li class="right-half">
-    <article>
-      <h1>Right Half</h1>
-      <p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life.</p>
-    </article>
-  </li>
-</ul>
+
+<table width=100% height=100%>
+  <tr>
+    <td width=50%><fieldset>
+      <legend> Recommend? </legend>
+
+    <form>
+      <ul>
+          <li><label for="name">Name:</label> <input type="text" name="name" id="name" value="" /></li>
+          <li><label for="drink">Drink bought:</label> <input type="text" name="drink" id="drink" value="" /></li>
+      </ul>
+      <ul>
+          <li>Did you take the best alcohol for value option:
+      <ul>
+          <li><label for="yes">Yes</label> <input type="checkbox" name="yes" id="yes" value="yes"></li>
+          <li><label for="no">No</label> <input type="checkbox" name="no" id="no" value="no"></li>
+      </ul>
+        </li>
+          <li><label for="comments">Review:</label> <textarea name="comments" id="comments" cols="25" rows="3"></textarea></li>
+      </ul>
+
+      <ul>
+        <li><label for="location">Location visited:</label>
+            <select name="location" id="location">
+              <option value="">Select location</option>
+              <option value="tesco">Tesco</option>
+              <option value="sainsburys">Sainsbury's</option>
+              <option value="waitrose">Waitrose</option>
+              <option value="independentshop">Independent shop</option>
+              <option value="other">Other</option>
+            </select></li>
+          </ul>
+
+            <li><input type="submit" value="submit" /></li>
+
+          </form>
+        </fieldset>
+    </td>
+    <td width=50%>
+        <fieldset>
+          <legend> Read reviews </legend>
+            <p> a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over th  </p>
+        </fieldset>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+<div class="footer">
+  <p>Leave a review to advise others!</p>
+</div>
+
 
 
 <!--MAARTJE TOUCHES NOTHING BENEATH -->
@@ -150,6 +207,6 @@
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="scripts.js"></script>
 -->
-    </div>
+
   </body>
 </html>
