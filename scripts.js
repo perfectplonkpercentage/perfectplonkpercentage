@@ -20,40 +20,40 @@ $(document).ready(function() {
     }
 
 //calculations - row 2
-        $(document).ready(function(){
-            $('#volume2').keyup(calculate);
-            $('#price2').keyup(calculate);
-            $('#percentage2').keyup(calculate);
-        });
+      $(document).ready(function(){
+          $('#volume2').keyup(calculate);
+          $('#price2').keyup(calculate);
+          $('#percentage2').keyup(calculate);
+      });
 
-        function calculate(e)
-        {
-            var price2 = parseFloat($("#price2").val()).toFixed(3)
-            var volume2 = parseFloat($("#volume2").val())
-            var percentage2 = parseFloat($("#percentage2").val())
+      function calculate(e)
+    {
+        var price2 = parseFloat($("#price2").val()).toFixed(3)
+        var volume2 = parseFloat($("#volume2").val())
+        var percentage2 = parseFloat($("#percentage2").val())
 
-            var result2 = price2 / (volume2 * percentage2)
+        var result2 = price2 / (volume2 * percentage2)
 
-            $("#ppu2").val(result2)
-        }
+        $("#ppu2").val(result2)
+    }
 
 //calculations - row 3
-            $(document).ready(function(){
-                $('#volume3').keyup(calculate);
-                $('#price3').keyup(calculate);
-                $('#percentage3').keyup(calculate);
-            });
+      $(document).ready(function(){
+          $('#volume3').keyup(calculate);
+          $('#price3').keyup(calculate);
+          $('#percentage3').keyup(calculate);
+      });
 
-            function calculate(e)
-            {
-                var price3 = parseFloat($("#price3").val()).toFixed(3)
-                var volume3 = parseFloat($("#volume3").val())
-                var percentage3 = parseFloat($("#percentage3").val())
+      function calculate(e)
+    {
+        var price3 = parseFloat($("#price3").val()).toFixed(3)
+        var volume3 = parseFloat($("#volume3").val())
+        var percentage3 = parseFloat($("#percentage3").val())
 
-                var result3 = price3 / (volume3 * percentage3)
+        var result3 = price3 / (volume3 * percentage3)
 
-                $("#ppu3").val(result3)
-            }
+        $("#ppu3").val(result3)
+    }
 
 
 
