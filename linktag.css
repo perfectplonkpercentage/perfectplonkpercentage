@@ -19,18 +19,11 @@ div.intro {
 contact-form {
   contact-form fieldset {width:40%;}
 }
-contact-form li {margin:10px; list-style: none;}
-contact-form input  {margin-left:45px; text-align: left;}
-contact-form textarea {margin-left:10px; text-align: left;}
-=======
-table {
-  background-color: white;
-}
 
 .footer {
    position: fixed;
    left: 0;
-   bottom: 0; 
+   bottom: 0;
    width: 100%;
    background-color: red;
    color: white;
