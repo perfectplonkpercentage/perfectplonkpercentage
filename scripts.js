@@ -3,12 +3,12 @@ $(document).ready(function() {
 
 //calculations - row 1
     $(document).ready(function(){
-        $('#volume1').keyup(calculate);
-        $('#price1').keyup(calculate);
-        $('#percentage1').keyup(calculate);
+        $('#volume1').keyup(calculate1);
+        $('#price1').keyup(calculate1);
+        $('#percentage1').keyup(calculate1);
     });
 
-    function calculate(e)
+    function calculate1(e)
     {
         var price1 = parseFloat($("#price1").val()).toFixed(3)
         var volume1 = parseFloat($("#volume1").val())
@@ -21,12 +21,12 @@ $(document).ready(function() {
 
 //calculations - row 2
       $(document).ready(function(){
-          $('#volume2').keyup(calculate);
-          $('#price2').keyup(calculate);
-          $('#percentage2').keyup(calculate);
+          $('#volume2').keyup(calculate2);
+          $('#price2').keyup(calculate2);
+          $('#percentage2').keyup(calculate2);
       });
 
-      function calculate(e)
+      function calculate2(e)
     {
         var price2 = parseFloat($("#price2").val()).toFixed(3)
         var volume2 = parseFloat($("#volume2").val())
@@ -37,14 +37,15 @@ $(document).ready(function() {
         $("#ppu2").val(result2)
     }
 
+
 //calculations - row 3
       $(document).ready(function(){
-          $('#volume3').keyup(calculate);
-          $('#price3').keyup(calculate);
-          $('#percentage3').keyup(calculate);
+          $('#volume3').keyup(calculate3);
+          $('#price3').keyup(calculate3);
+          $('#percentage3').keyup(calculate3);
       });
 
-      function calculate(e)
+      function calculate3(e)
     {
         var price3 = parseFloat($("#price3").val()).toFixed(3)
         var volume3 = parseFloat($("#volume3").val())
@@ -54,6 +55,7 @@ $(document).ready(function() {
 
         $("#ppu3").val(result3)
     }
+
 
 
 
