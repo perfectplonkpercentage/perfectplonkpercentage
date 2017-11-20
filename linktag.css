@@ -21,7 +21,8 @@ contact-form {
 }
 
 .footer {
-   position: fixed;
+   position: relative
+   height: auto;
    left: 0;
    bottom: 0;
    width: 100%;
