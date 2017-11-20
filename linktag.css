@@ -2,7 +2,7 @@ nav.navbar {
   opacity: 0.8;
   background-color: #3d0101;
 }
-div#non-nav {
+div.non-nav {
   padding: 48px 80px 80px 80px;
 }
 body {
