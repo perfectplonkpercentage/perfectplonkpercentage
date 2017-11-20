@@ -30,7 +30,7 @@ div.review {
 }
 a.useful {
   color: #800000;
-  font-style: bold; 
+  font-style: bold;
 }
 
 .table.table-main-calc {
@@ -73,4 +73,7 @@ container.useful-links-intro {
 .cell-wrap.left {
   width: 70%;
   padding-right: 10px;  /* if you need some whitespace */
+}
+li {
+  list-style-type: none;
 }
