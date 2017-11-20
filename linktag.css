@@ -28,6 +28,10 @@ div.review {
 .contact-form {
   contact-form fieldset {width:40%;}
 }
+a.useful {
+  color: #800000;
+  font-style: bold; 
+}
 
 .table.table-main-calc {
   background-color: white;
