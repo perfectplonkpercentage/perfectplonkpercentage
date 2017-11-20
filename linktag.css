@@ -12,14 +12,17 @@ body {
 div.intro {
   background-color: white;
   opacity: 0.9;
-  padding: 15px 15px 10px 15px;
+  padding: 40px;
   font-size: 12pt;
 }
 .navbar-brand {
   font-color: white;
 }
 div.review {
+  background-color: #e8b2b8;
   background-color: white;
+  padding: 15px 15px 10px 15px;
+  /*background-image: url("./images/wine-stain.jpg")*/
   //*opacity: 0.9;*//
 }
 .contact-form {
@@ -34,12 +37,9 @@ container.useful-links-intro {
   background-color: white;
 }
 
-<<<<<<< HEAD
 .h1 {
-=======
-h1 {
+
   font-size: 40px;
->>>>>>> 95fb07eeebf8bc37543aefb33a0257d415d0a415
 }
 
 
