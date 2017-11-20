@@ -3,7 +3,7 @@ nav.navbar {
   background-color: #3d0101;
 }
 div#non-nav {
-  padding-top: 48px;
+  padding: 48px 80px 80px 80px;
 }
 body {
   background-image: url("./images/wine-stain.jpg")
@@ -19,11 +19,22 @@ div.intro {
 }
 div.review {
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 contact-form {
   contact-form fieldset {width:40%;}
 }
+
+table.table-main-calc {
+  background-color: white;
+}
+
+//*
+th {
+  background-color: white;
+}
+*//
+
 
 .footer {
    position: relative
