@@ -2,7 +2,7 @@ nav.navbar {
   opacity: 0.8;
   background-color: #3d0101;
 }
-div.non-nav {
+div#non-nav {
   padding: 48px 80px 80px 80px;
 }
 body {
@@ -34,7 +34,7 @@ div.review {
 .h1 {
 =======
 h1 {
-  font-size: 40px; 
+  font-size: 40px;
 >>>>>>> 95fb07eeebf8bc37543aefb33a0257d415d0a415
 }
 
