@@ -8,6 +8,10 @@ div.non-nav {
 body {
   background-image: url("./images/wine-stain.jpg")
 }
+div.main-heading {
+  background-color: white;
+  opacity: 0.8;
+}
 
 div.intro {
   background-color: white;
