@@ -16,6 +16,11 @@ div.intro {
 }
 .navbar-brand {
   font-color: white;
+}
+div.review {
+  background-color: white;
+  opacity: 0.8;
+}
 contact-form {
   contact-form fieldset {width:40%;}
 }
@@ -29,4 +34,5 @@ contact-form {
    background-color: red;
    color: white;
    text-align: center;
+   opacity: 0.8;
 }
