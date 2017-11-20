@@ -30,7 +30,12 @@ div.review {
   background-color: white;
 }
 
+<<<<<<< HEAD
 .h1 {
+=======
+h1 {
+  font-size: 40px; 
+>>>>>>> 95fb07eeebf8bc37543aefb33a0257d415d0a415
 }
 
 
