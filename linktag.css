@@ -22,15 +22,15 @@ div.review {
   background-color: white;
   //*opacity: 0.9;*//
 }
-contact-form {
+.contact-form {
   contact-form fieldset {width:40%;}
 }
 
-table.table-main-calc {
+.table.table-main-calc {
   background-color: white;
 }
 
-h1 {
+.h1 {
 }
 
 
